@@ -1,0 +1,22 @@
+/* This stylesheet contain the basic style applied for all the pages */
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+}
+
+.header {
+  background-color: #1f6f8b;
+
+  margin: 0;
+}
+
+.logo {
+  color: white;
+
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 3rem;
+
+  padding: 1rem;
+  padding-left: 2rem;
+  margin: 0;
+}
