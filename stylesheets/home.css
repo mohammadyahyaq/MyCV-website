@@ -1,12 +1,15 @@
 .resume-container {
+  margin-left: 20%;
+  margin-right: 20%;
+
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .resume {
+  margin: 2%;
   text-align: center;
-  width: 20vh;
-  height: 30vh;
+  padding: 2%;
 
 
   border-color: #bbbbbb;
@@ -16,5 +19,11 @@
 }
 
 .profile_image {
-  width: 80%;
+  width: 20vh;
+}
+
+.profile_name, .profile_category, .profile_major {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }

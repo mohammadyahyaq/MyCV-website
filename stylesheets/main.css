@@ -4,7 +4,7 @@ body {
   font-family: 'Cairo', sans-serif;
 }
 
-a {
+.header a {
   text-decoration: none;
   color: #eeeeee;
 }
@@ -41,7 +41,63 @@ a {
   text-align: center;
 }
 
-.tab-button:hover, a:hover{
+.tab-button:hover, .header a:hover{
   background-color: #1F76C0;
   color: white;
+}
+
+/* Footer Design */
+.footer {
+    width: 100%;
+    height: 15rem;
+    background-color: #393e46;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.footer img{
+  float: right;
+  width: 75px;
+  height:75;
+
+  position: relative;
+  top: 3rem;
+}
+
+.w3c_logos {
+}
+
+.footerTab {
+    color: white;
+    text-align: left;
+    margin-left: 10%
+    padding-left: 10rem;
+    padding: 1.5rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer_logo {
+  margin: 4rem;
+  margin-right: 5rem;
+
+  padding-right: 5rem;
+
+  border-right-style: solid;
+  border-right-width: 0.1rem;
+}
+
+.contact {
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-margin {
+  float: left;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
 }
