@@ -1,0 +1,20 @@
+.resume-container {
+  display: flex;
+  justify-content: center;
+}
+
+.resume {
+  text-align: center;
+  width: 20vh;
+  height: 30vh;
+
+
+  border-color: #bbbbbb;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-radius: 0.7rem;
+}
+
+.profile_image {
+  width: 80%;
+}

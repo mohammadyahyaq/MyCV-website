@@ -6,6 +6,7 @@
 
     <!-- The required stylesheet -->
     <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/home.css">
 
     <!-- import all the used fonts for the project -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,22 +19,46 @@
 
   </head>
   <body>
+    <!-- Header Section -->
     <div class="header">
       <h1 class="logo">MyCV</h1>
       <div class="tabs-container">
+
         <div class="tab-button">
-          <h2 class="tab">Home</h2>
+          <h2 class="tab"><a href="index.php">Home</a></h2>
         </div>
+
         <div class="tab-button">
-          <h2 class="tab">Tutorials</h2>
+          <h2 class="tab"><a href="tutorials.php">Tutorials</a></h2>
         </div>
+
         <div class="tab-button">
-          <h2 class="tab">Office Hour</h2>
+          <h2 class="tab"><a href="office.php">Office Hour</a></h2>
         </div>
+
         <div class="tab-button">
-          <h2 class="tab">About Us</h2>
+          <h2 class="tab"><a href="feedback.php">Feedback</a></h2>
         </div>
+
+        <div class="tab-button">
+          <h2 class="tab"><a href="about.php">About Us</a></h2>
+        </div>
+
       </div>
     </div>
+    <!-- Body Section -->
+    <section>
+      <div class="resume-container">
+        <div class="resume">
+          <img class="profile_image" src="images/person.jpg">
+        </div>
+        <div class="resume">
+          <img class="profile_image" src="images/person.jpg" alt="">
+        </div>
+        <div class="resume">
+          <img class="profile_image" src="images/person.jpg" alt="">
+        </div>
+      </div>
+    </section>
   </body>
 </html>

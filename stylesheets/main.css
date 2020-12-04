@@ -4,9 +4,15 @@ body {
   font-family: 'Cairo', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #eeeeee;
+}
+
 .header {
   background-color: #3490de;
   margin: 0;
+  margin-bottom: 5rem;
 }
 
 .logo {
@@ -31,11 +37,11 @@ body {
 
 .tab {
   margin: 2rem;
-  width: 200px;
+  width: 150px;
   text-align: center;
 }
 
-.tab-button:hover{
+.tab-button:hover, a:hover{
   background-color: #1F76C0;
   color: white;
 }
