@@ -5,12 +5,12 @@ body {
 }
 
 .header {
-  background-color: #1f6f8b;
-
+  background-color: #3490de;
   margin: 0;
 }
 
 .logo {
+  float: left;
   color: white;
 
   font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -19,4 +19,23 @@ body {
   padding: 1rem;
   padding-left: 2rem;
   margin: 0;
+}
+
+.tabs-container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #eeeeee;
+}
+
+.tab {
+  margin: 2rem;
+  width: 100px;
+  text-align: center;
+}
+
+.tab-button:hover{
+  background-color: #1F76C0;
+  color: white;
 }
