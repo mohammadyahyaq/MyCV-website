@@ -25,6 +25,12 @@
           <h2 class="tab">Home</h2>
         </div>
         <div class="tab-button">
+          <h2 class="tab">Tutorials</h2>
+        </div>
+        <div class="tab-button">
+          <h2 class="tab">Office Hour</h2>
+        </div>
+        <div class="tab-button">
           <h2 class="tab">About Us</h2>
         </div>
       </div>
