@@ -18,20 +18,17 @@ body {
 .logo {
   float: left;
   color: white;
-
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 3rem;
-
   padding: 1rem;
   padding-left: 2rem;
   margin: 0;
 }
 
 .tabs-container {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-
   color: #eeeeee;
 }
 
@@ -41,39 +38,34 @@ body {
   text-align: center;
 }
 
-.tab-button:hover, .header a:hover{
+.tab-button:hover, .header a:hover {
   background-color: #1F76C0;
   color: white;
 }
 
 /* Footer Design */
 .footer {
-    width: 100%;
-    height: 15rem;
-    background-color: #393e46;
-    margin: 0;
-    bottom: 0;
-    left: 0;
+  width: 100%;
+  height: 14.5rem;
+  background-color: #393e46;
+  margin: 0;
+  bottom: 0;
+  left: 0;
 }
 
-.footer img{
+.footer img {
   float: right;
   width: 75px;
-  height:75;
-
   position: relative;
-  top: 3rem;
-}
-
-.w3c_logos {
+  top: 5rem;
 }
 
 .footerTab {
-    color: white;
-    text-align: left;
-    margin-left: 10%
-    padding-left: 10rem;
-    padding: 1.5rem;
+  color: white;
+  text-align: left;
+  margin-left: 10%;
+  padding-left: 10rem;
+  padding: 1.5rem;
 }
 
 .footer a {
@@ -84,9 +76,7 @@ body {
 .footer_logo {
   margin: 4rem;
   margin-right: 5rem;
-
   padding-right: 5rem;
-
   border-right-style: solid;
   border-right-width: 0.1rem;
 }
@@ -101,3 +91,114 @@ body {
   margin-bottom: 2rem;
   padding-left: 2rem;
 }
+
+/*######################################################### Home Page #########################################################*/
+.resume-container {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resume {
+  margin: 2%;
+  text-align: center;
+  padding: 2%;
+  border-color: #bbbbbb;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-radius: 0.7rem;
+}
+
+.profile_image {
+  width: 15vh;
+}
+
+.profile_name, .profile_category, .profile_major {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/*#############################################################################################################################*/
+
+
+/*####################################################### Feedback Page #######################################################*/
+fieldset {
+  background-color: #bec4cf;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 0px;
+  border-radius: 10px
+}
+
+span {
+  color: red
+}
+
+label.blocklabel {
+  display: block;
+  position: relative;
+  margin: 10px 0px 10px 10px;
+  width: 475px
+}
+
+label.blocklabel input {
+  position: absolute;
+  left: 140px;
+  border-radius: 3px;
+  border: 0px;
+  width: 475px;
+  height: 25px
+}
+
+#websiteRate, #easyWebRate, #designWebRate {
+  width: 450px;
+  padding: 5px
+}
+
+select, textarea {
+  width: 750px;
+  padding: 5px;
+  margin-top: 15px;
+  font-size: 17px;
+  border-radius: 7px
+}
+
+.Heading {
+  text-align: center
+}
+
+.feedbackPage {
+  display: block;
+  position: relative;
+  left: 300px;
+  width: 950px
+}
+
+#contactFields #fname, #contactFields #lname, #commentPart #subject {
+  width: 200px
+}
+
+#recommend, #problem {
+  bottom: 50px;
+  resize: none;
+  height: 30px;
+  padding: 2px
+}
+
+#commentPart legend, #contactFields legend, #legendInfo {
+  font-size: 25px
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 7px;
+  border: 3px solid white
+}
+
+button:hover {
+  background-color: #bec4cf
+}
+
+/*#############################################################################################################################*/

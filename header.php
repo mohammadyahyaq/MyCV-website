@@ -6,7 +6,6 @@
 
     <!-- The required stylesheet -->
     <link rel="stylesheet" href="stylesheets/main.css">
-    <link rel="stylesheet" href="stylesheets/home.css">
 
     <!-- import all the used fonts for the project -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -39,6 +38,11 @@
         <div class="tab-button">
           <h2 class="tab"><a href="feedback.php">Feedback</a></h2>
         </div>
+
+        <div class="tab-button">
+          <h2 class="tab"><a href="resumes.php">Resume</a></h2>
+        </div>
+
 
         <div class="tab-button">
           <h2 class="tab"><a href="about.php">About Us</a></h2>
