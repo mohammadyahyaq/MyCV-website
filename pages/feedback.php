@@ -1,5 +1,9 @@
+<!-- Specify the name of the page -->
+<?php $page_name = "My CV | Feadback" ?>
+
+<!-- import the header -->
 	<?php
-		include "header.php";
+		include "../include/header.php";
 	?>
 	<div class = "Heading">
 		<h1> Feedback </h1>
@@ -8,37 +12,42 @@
 		<div class="feedbackPage">
 	<p><span>*</span> indicates required information</p>
 
-	<form>
+	<form id="feedback_form" action="/" method="post">
 		<!--#######################################(Contact Information fieldset)#######################################-->
 		<fieldset id="contactFields">
 		<legend>Contact Information</legend>
 		<label class="blocklabel">
+			<p id="fname_error" class="error"></p>
 			First Name<span>*</span>
-			<input type="text" id="fname"  name="fname" />
+			<input type="text" id="fname" class="required"  name="fname" />
 		</label>
 
 		<br/> <!-- NEW LINE -->
 		<label class="blocklabel">
+			<p id="lname_error" class="error"></p>
 			Last Name<span>*</span>
-			<input type="text" id="lname"  name="lname" />
+			<input type="text" id="lname" class="required" name="lname" />
 		</label>
 
 		<br/> <!-- NEW LINE -->
 		<label class="blocklabel">
+			<p id="email_error" class="error"></p>
 			Email<span>*</span>
-			<input type="text" id="email" name='email'/>
+			<input type="text" id="email" class="required" name='email'/>
 		</label>
 
 		<br/> <!-- NEW LINE -->
 		<label class="blocklabel">
+			<p id="phone_error" class="error"></p>
 			Phone<span>*</span>
-			<input type="text" id="phone" name='phone' maxlength="10" />
+			<input type="text" id="phone" class="required" name='phone' maxlength="10" />
 		</label>
 
 		<br/> <!-- NEW LINE -->
 		<label class="blocklabel">
+			<p id="country_error" class="error"></p>
 			Country<span>*</span>
-			<input type="text" id="country" name="country" value="Saudi Arabia" />
+			<input type="text" id="country" class="required" name="country" value="Saudi Arabia" />
 		</label>
 
 		<br/> <!-- NEW LINE -->
@@ -136,8 +145,9 @@
 			<fieldset id="commentPart">
 					<legend>Suggestion</legend>
 					<label class="blocklabel">
+						<p id="subject_error" class="error"></p>
 						Subject<span>*</span>
-						<input type="text" id="subject" name="subject"/>
+						<input type="text" id="subject" class="required" name="subject"/>
 					</label>
 					<br/> <!--New line-->
 					<textarea id="suggestion" name="suggestion" rows="7" cols="60"></textarea>
@@ -148,6 +158,7 @@
 		<!--#######################################(END of Information about Website)#######################################-->
 	</form>
 	</div>
+	<script src="../include/validation.js" charset="utf-8"></script>
 	<?php
-		include "footer.php";
+		include "../include/footer.php";
 	?>

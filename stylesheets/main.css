@@ -201,4 +201,11 @@ button:hover {
   background-color: #bec4cf
 }
 
+.error {
+  color: red;
+  position: absolute;
+  left: 140px;
+  padding-top: 0.5rem;
+}
+
 /*#############################################################################################################################*/
