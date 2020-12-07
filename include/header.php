@@ -6,6 +6,7 @@
 
     <!-- The required stylesheet -->
     <link rel="stylesheet" href="../stylesheets/main.css">
+    <link rel="stylesheet" href="../stylesheets/main.css" media="print">
 
     <!-- import all the used fonts for the project -->
     <link rel="preconnect" href="https://fonts.gstatic.com">

@@ -10,6 +10,8 @@ document.getElementById("feedback_form").addEventListener("submit", function (e)
     if (requiredFields[i].value === "" || requiredFields[i].value == null) {
       errorCounter++;
       document.querySelector("#"+requiredFields[i].getAttribute("id") + "_error").innerHTML = "This field is required!";
+    } else {
+      document.querySelector("#"+requiredFields[i].getAttribute("id") + "_error").innerHTML = "";
     }
   }
   // alert(errorCounter);
