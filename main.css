@@ -12,7 +12,7 @@ body {
 .header {
   background-color: #3490de;
   margin: 0;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .logo {
@@ -34,8 +34,10 @@ body {
 
 .tab {
   margin: 2rem;
-  width: 150px;
+  width: 115px;
   text-align: center;
+
+  font-size: 1.1rem;
 }
 
 .tab-button:hover, .header a:hover {
@@ -120,6 +122,30 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.resume_button {
+  margin-top: 1rem;
+
+  background-color: #3490de;
+  height: 2.5rem;
+  border-radius: 0.2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.resume_button:hover {
+  background-color: #1F76C0;
+}
+
+.resume_button a {
+  text-decoration: none;
+  color: white;
+}
 /*#############################################################################################################################*/
 
 
@@ -202,6 +228,7 @@ button:hover {
 }
 
 .error {
+  width: 100%;
   color: red;
   position: absolute;
   left: 140px;
@@ -264,5 +291,104 @@ th {
   margin-left:20rem;
   padding-bottom: 25px;
 }
+
+
+/*#############################################################################################################################*/
+/*##################################################### Submit Feedback Page ##################################################*/
+
+.feedback_container {
+  height: 70vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thanks_message_box {
+  text-align: center;
+  padding: 4rem;
+  background-color: #eeeeee;
+
+  border-radius: 1rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #bbbbbb;
+}
+
+#thanks_image {
+  width: 7rem;
+  margin: 1rem;
+}
+
+.green_message {
+  font-size: 1.5rem;
+  color: green;
+}
+
+.back_button {
+  font-size: 1.5rem;
+  color: white;
+  background-color: #4C9345;
+}
+
+.back_button:hover {
+  background-color: #61B15A;
+}
+
+/*#############################################################################################################################*/
+/*########################################################## Contact Us #######################################################*/
+.contact_info {
+  margin-left:20rem;
+  margin-right: 20rem;
+  padding-bottom: 25px;
+
+  height: 60vh;
+}
+
+/*#############################################################################################################################*/
+/*######################################################## Resume Example #####################################################*/
+.resume_example {
+  margin-left:20rem;
+  margin-right: 20rem;
+  padding-bottom: 25px;
+}
+
+/*####################################################### Gallery Page ########################################################*/
+
+            .below {
+            float: left;
+            width: 15%;
+            padding: 7px;
+            }
+
+
+            .below img {
+            width: 80%;
+            height: 10%;
+            opacity: 2.0;
+            padding-top: 10px;
+            }
+
+
+            .allImage:after {
+            content: "";
+            display: table;
+            clear: both;
+            width: 50%;
+            height: 50%;
+            }
+
+
+            .BigImage {
+            position: relative;
+            top:11px;
+            display: block;
+            text-align:center;
+            }
+
+            .BigImage .expandedImg {width:680px; height: 350}
+            .BigImage button {border-radius:12px;border:2px solid;}
+            .BigImage .nav:hover {color:e6f1fa;border:2px solid e6f1fa;}
+            .BigImage .nav:active {background-color:#2981cc;color:white;}
 
 /*#############################################################################################################################*/

@@ -12,7 +12,7 @@
 		<div class="feedbackPage">
 	<p><span>*</span> indicates required information</p>
 
-	<form id="feedback_form" action="/" method="post">
+	<form id="feedback_form" action="../include/sendfeedback.php" method="post">
 		<!--#######################################(Contact Information fieldset)#######################################-->
 		<fieldset id="contactFields">
 		<legend>Contact Information</legend>
@@ -67,7 +67,7 @@
 				<option value="talk">Word of Mouth</option>
 				<option value="tweet">Twitter</option>
 				<option value="post">Instagram</option>
-				< value="internet">The Internet</option>
+				<option value="internet">The Internet</option>
 				<option value="schools">College/High School</option>
 			</select>
 			</label>
@@ -77,11 +77,11 @@
 				<legend>The website easy to use?</legend>
 					<label id="prevYes">
 						Yes
-						<input type="radio" id="prevYes" name="prevYes" value="yes"/>
+						<input type="radio" id="prevYes" name="isEasy" value="yes"/>
 					</label>
 					<label id="prevNo">
 						No
-						<input type="radio" id="prevNO" name="prevNO" value="no"/>
+						<input type="radio" id="prevNO" name="isEasy" value="no"/>
 					</label>
 			</fieldset>
 			<fieldset id="easyWebRate">
@@ -111,34 +111,34 @@
 				<legend>Rate the design in the website</legend>
 				<label class="prevexp">
 						1
-						<input type="radio" id="radioEasy1" name="radioEasy" value="one"/>
+						<input type="radio" id="radioRate1" name="radioRate" value="one"/>
 					</label>
 					<label class="prevExp">
 						2
-						<input type="radio" id="radioEasy2" name="radioEasy" value="two"/>
+						<input type="radio" id="radioRate2" name="radioRate" value="two"/>
 					</label>
 					<label class="prevExp">
 						3
-						<input type="radio" id="radioEasy3" name="radioEasy" value="three"/>
+						<input type="radio" id="radioRate3" name="radioRate" value="three"/>
 					</label>
 					<label class="prevExp">
 						4
-						<input type="radio" id="radioEasy4" name="radioEasy" value="four"/>
+						<input type="radio" id="radioRate4" name="radioRate" value="four"/>
 					</label>
 					<label class="prevExp">
 						5
-						<input type="radio" id="radioEasy5" name="radioEasy" value="five"/>
+						<input type="radio" id="radioRate5" name="radioRate" value="five"/>
 					</label>
 			</fieldset>
 			<fieldset id="recommend">
 						<label>
-						<input type="checkbox" id="recommendweb" name="recommendweb"/>
+						<input type="checkbox" id="recommendweb" name="recommendweb" value="I will recommend my friend & colleagues to visit this website"/>
 						I will recommend my friend & colleagues to visit this website
 						</label>
 			</fieldset>
 			<fieldset id="problem">
 						<label>
-						<input type="checkbox" id="browse" name="browse"/>
+						<input type="checkbox" id="browse" name="browse" value="I haven't face any problem in browsing this website"/>
 						I haven't face any problem in browsing this website
 						</label>
 			</fieldset>

@@ -5,8 +5,8 @@
     <title><?php echo $page_name; ?></title>
 
     <!-- The required stylesheet -->
-    <link rel="stylesheet" href="../stylesheets/main.css">
-    <link rel="stylesheet" href="../stylesheets/main.css" media="print">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../print.css" media="print">
 
     <!-- import all the used fonts for the project -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,8 +14,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet">
 
-    <!-- import the icons used in the website -->
-    <script src="https://kit.fontawesome.com/adac5f140b.js" crossorigin="anonymous"></script>
 
   </head>
   <body>
@@ -42,6 +40,14 @@
 
         <div class="tab-button">
           <h2 class="tab"><a href="resumes.php">Resume</a></h2>
+        </div>
+
+        <div class="tab-button">
+          <h2 class="tab"><a href="gallery.php">Picture Gallery</a></h2>
+        </div>
+
+        <div class="tab-button">
+          <h2 class="tab"><a href="https://blog.mycv-cpcs403.xyz/">Blog</a></h2>
         </div>
 
 
