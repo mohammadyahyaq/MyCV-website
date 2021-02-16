@@ -1,5 +1,6 @@
 # MyCV-website
 The project for Internet Application Programming Course (CPCS-403). In this project, we developed a full stack website that views several resumes for different people and we applied the following concepts:
+
 	1- Building the full structure using HTML5
 	2- Style the website using CSS and we used some advanced CSS properties
 	3- We added behaviour to our website using Javascipt and we used the following concepts, DOM, Event Listeners, client-side input validation, and Email Scrambling
